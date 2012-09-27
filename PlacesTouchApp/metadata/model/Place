@@ -1,0 +1,110 @@
+{
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Place"
+    },
+    "id": "ExtBox1-ext-gen2602",
+    "designerId": "ff764e71-77d0-4245-9077-df0e70fdcbac",
+    "cn": [
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field",
+                "name": "id",
+                "type": "int"
+            },
+            "designerId": "47c97f11-a161-4825-be5e-cac97187b9ad"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field1",
+                "name": "name"
+            },
+            "designerId": "cbfc9dff-e9db-4fdd-a82f-b2ab7665a4ed"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field2",
+                "name": "location"
+            },
+            "designerId": "1f3dd433-7f6d-4ba1-af3c-5504a0aa38d0"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field3",
+                "name": "lat",
+                "type": "float"
+            },
+            "designerId": "1472c12c-5cce-4e31-988f-1dc7d2f390bb"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field4",
+                "name": "lng",
+                "type": "float"
+            },
+            "designerId": "73055856-d285-47ed-ae28-14e01a4fd8e6"
+        },
+        {
+            "type": "restproxy",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyRestProxy",
+                "url": "http://localhost:55434/api/place"
+            },
+            "designerId": "65925326-e620-4c38-b859-291d4de7b807"
+        },
+        {
+            "type": "presencevalidation",
+            "reference": {
+                "name": "validations",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyPresenceValidation",
+                "designer|displayName": "name",
+                "field": "name"
+            },
+            "designerId": "26d3bdac-31ea-4d9a-8c0d-72753f007a1b"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "type": "map",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "PlaceMap",
+        "designer|userAlias": "placemap",
+        "id": "PlaceMap"
+    },
+    "id": "ExtBox1-ext-gen9091",
+    "designerId": "55f52d38-d35a-4f95-a5f8-cf7f589f870a"
+}

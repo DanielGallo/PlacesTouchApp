@@ -1,0 +1,45 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Places",
+        "autoLoad": true,
+        "model": "Place",
+        "storeId": "Places"
+    },
+    "id": "ExtBox1-ext-gen3899",
+    "designerId": "a7a3b43c-9fb6-4344-bd5a-2e4b56689379",
+    "cn": [
+        {
+            "type": "ajaxproxy",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyAjaxProxy",
+                "url": "http://localhost:55434/api/place"
+            },
+            "designerId": "1e91daa2-0e1a-4916-8552-975df39a696d",
+            "cn": [
+                {
+                    "type": "jsonreader",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyJsonReader"
+                    },
+                    "designerId": "5a57f745-802a-4cb4-8ae3-1aeaa6453d59"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "type": "libraryresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "basePath": "http://localhost/sencha-touch-2.0.1.1/"
+    },
+    "id": "ExtBox1-ext-gen1522",
+    "designerId": "163d0a0f-6406-4421-b8f0-f3dfe2cc6fb0"
+}

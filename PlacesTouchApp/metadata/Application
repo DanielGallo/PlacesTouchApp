@@ -1,0 +1,27 @@
+{
+    "type": "application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "Place"
+        ],
+        "stores": [
+            "Places"
+        ],
+        "views": [
+            "MainView",
+            "PlaceDetail",
+            "PlaceMap"
+        ],
+        "name": "MyApp",
+        "controllers": [
+            "Place"
+        ]
+    },
+    "id": "ExtBox1-ext-gen1514",
+    "designerId": "application"
+}

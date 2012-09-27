@@ -1,0 +1,101 @@
+{
+    "name": "PlacesTouchApp",
+    "settings": {
+        "urlPrefix": "",
+        "spacesToIndent": 4,
+        "exportPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false
+    },
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 633,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000498,
+    "framework": "touch20",
+    "topInstanceFileMap": {
+        "163d0a0f-6406-4421-b8f0-f3dfe2cc6fb0": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "437b7d19-d47f-4b60-a810-32f28c651214": {
+            "paths": [
+                "metadata/view/MainView",
+                "app/view/override/MainView.js",
+                "app/view/MainView.js"
+            ],
+            "className": "MainView"
+        },
+        "22fff055-2ff2-4cc8-a598-cc75286ea90f": {
+            "paths": [
+                "metadata/view/PlaceDetail",
+                "app/view/override/PlaceDetail.js",
+                "app/view/PlaceDetail.js"
+            ],
+            "className": "PlaceDetail"
+        },
+        "55f52d38-d35a-4f95-a5f8-cf7f589f870a": {
+            "paths": [
+                "metadata/view/PlaceMap",
+                "app/view/override/PlaceMap.js",
+                "app/view/PlaceMap.js"
+            ],
+            "className": "PlaceMap"
+        },
+        "a7a3b43c-9fb6-4344-bd5a-2e4b56689379": {
+            "paths": [
+                "metadata/store/Places",
+                "app/store/override/Places.js",
+                "app/store/Places.js"
+            ],
+            "className": "Places"
+        },
+        "9fbf5d4b-b212-4e2a-9139-e831a58dce1f": {
+            "paths": [
+                "metadata/controller/Place",
+                "app/controller/override/Place.js",
+                "app/controller/Place.js"
+            ],
+            "className": "Place"
+        },
+        "ff764e71-77d0-4245-9077-df0e70fdcbac": {
+            "paths": [
+                "metadata/model/Place",
+                "app/model/override/Place.js",
+                "app/model/Place.js"
+            ],
+            "className": "Place"
+        },
+        "7eaa4b4f-05ba-4ac9-99d9-f24411957cbc": {
+            "paths": [
+                "metadata/resource/GoogleMapsAPI"
+            ],
+            "className": "GoogleMapsAPI"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "437b7d19-d47f-4b60-a810-32f28c651214",
+            "22fff055-2ff2-4cc8-a598-cc75286ea90f",
+            "55f52d38-d35a-4f95-a5f8-cf7f589f870a"
+        ],
+        "store": [
+            "a7a3b43c-9fb6-4344-bd5a-2e4b56689379"
+        ],
+        "controller": [
+            "9fbf5d4b-b212-4e2a-9139-e831a58dce1f"
+        ],
+        "model": [
+            "ff764e71-77d0-4245-9077-df0e70fdcbac"
+        ],
+        "resource": [
+            "163d0a0f-6406-4421-b8f0-f3dfe2cc6fb0",
+            "7eaa4b4f-05ba-4ac9-99d9-f24411957cbc"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

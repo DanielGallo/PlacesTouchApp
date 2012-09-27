@@ -1,0 +1,50 @@
+{
+    "type": "navigationview",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MainView",
+        "designer|initialView": true,
+        "id": "MainView"
+    },
+    "id": "ExtBox1-ext-gen2324",
+    "designerId": "437b7d19-d47f-4b60-a810-32f28c651214",
+    "cn": [
+        {
+            "type": "list",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Places to Visit",
+                "designer|userClassName": "MyList",
+                "id": "PlaceList",
+                "store": "Places"
+            },
+            "designerId": "074afea7-2fed-40c0-a0de-cdd24df23551",
+            "cn": [
+                {
+                    "type": "template",
+                    "reference": {
+                        "name": "itemTpl",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "itemTpl",
+                        "implHandler": [
+                            "<div>{name}, {location}</div>"
+                        ],
+                        "designer|displayName": "itemTpl"
+                    },
+                    "designerId": "edd13942-e06f-4841-b905-c8189323846f"
+                }
+            ]
+        }
+    ]
+}
